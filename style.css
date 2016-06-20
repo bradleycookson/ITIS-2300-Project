@@ -15,6 +15,8 @@ body {
 	margin: 0;
 	text-align: center;
 	padding: 20px 0 20px 0;
+	position: fixed;
+	width: 100%;
 }
 
 .nav li {
@@ -34,11 +36,11 @@ body {
 /* Header */
 header {
 	text-align: center;
-	padding: 50px 0 50px 0;
+	padding: 100px 0 50px 0;
 }
 
 .alt {
-	padding: 0px;
+	padding-bottom: 40px;
 }
 
 /* Index Containers */
@@ -52,18 +54,21 @@ header {
 	background-image: url("https://images.unsplash.com/photo-1457369804613-52c61a468e7d?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=aff2bf56593d08c8fdda8de3eced4910");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 #feature-image2 {
 	background-image: url("https://images.unsplash.com/photo-1432821596592-e2c18b78144f?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=3f9c78df0edb464244bbabb04d1797d8");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 #feature-image3 {
 	background-image: url("https://images.unsplash.com/photo-1447023029226-ef8f6b52e3ea?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=36db41ace938e987e1f7f8b51c05001e");
 	background-repeat: no-repeat;
 	background-size: cover;
+	background-attachment: fixed;
 }
 
 #call-to-action a {
@@ -82,6 +87,15 @@ header {
 
 #courses {
 	padding: 0;
+}
+
+.topic-box {
+	height: 150px;
+}
+
+.topic-box p {
+	padding-top: 65.5px;
+	margin-top: 0px;
 }
 
 .column1 {
@@ -116,10 +130,108 @@ header {
 	margin: 20px;
 }
 
-/* Contact Container */
+#box1 {
+	background-image: url("https://images.unsplash.com/photo-1454165205744-3b78555e5572?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=ca8c08d17555247f7580691500bb5351");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box2 {
+	background-image: url("https://images.unsplash.com/photo-1442876906995-6761040d1f0b?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=8fc848dd82f0837198328c1c2a81ef51");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box3 {
+	background-image: url("https://images.unsplash.com/photo-1463740839922-2d3b7e426a56?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=60dd599f50bde339d4d8ff45c698ea53");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box4 {
+	background-image: url("https://images.unsplash.com/reserve/81gZijLSWfge41LgzqQ6_Moving%20Parts.JPG?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=374a70f0da75fab39f25402a36ded1bb");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box5 {
+	background-image: url("https://images.unsplash.com/photo-1444653389962-8149286c578a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=fa6a09310ca88972c589a0cb4912c0ae");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box6 {
+	background-image: url("https://images.unsplash.com/photo-1420802532821-8a885e88e95c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=11f7a0aab84e6a914656460453997dce");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box7 {
+	background-image: url("https://images.unsplash.com/photo-1447023029226-ef8f6b52e3ea?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=36db41ace938e987e1f7f8b51c05001e");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box8 {
+	background-image: url("https://images.unsplash.com/photo-1444068901577-032823f657b1?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=0ddd815f4cdfeec97b71f186f2bff5d1");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box9 {
+	background-image: url("https://images.unsplash.com/photo-1443110189928-4448af4a2bc5?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=9aef14cb3e2a476d537aa5f680adcda6");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box10 {
+	background-image: url("https://images.unsplash.com/photo-1447727214830-cbcbf097b52c?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=60b5d75f11fdf6145f82afa47a589499");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box11 {
+	background-image: url("https://images.unsplash.com/photo-1462815888691-055e95a70c97?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c1923fc844f8440c71610a9c699dfcb7");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#box12 {
+	background-image: url("https://images.unsplash.com/photo-1446421728091-d32c69806a8e?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=c7ac4af847fdd2c16e97daf2a4fb0b1f");
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+/* Help Container */
 
 #contact {
 	padding-top: 0;
+}
+
+#FAQ {
+	text-align: left;
+	padding-top: 0;
+	padding-bottom: 20px;
+}
+
+label {
+	display: inline-block;
+	width: 100px;
+	text-align: left;
+	margin-bottom: 10px;
+	vertical-align: top;
 }
 
 /* Footer */

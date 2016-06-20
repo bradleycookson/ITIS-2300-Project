@@ -5,6 +5,11 @@
 	<title>Help</title>
 	<link href="css/style.css" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+    <script type="text/javascript">
+        function message() {
+            alert("Thanks for the feedback! One of our representatives will get in touch with you within 24 hrs.");
+        }
+    </script>
 </head>
 <body>
 	<!--Navigation Bar-->
@@ -12,17 +17,37 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="courses.html">Courses</a></li>
         <li><a href="blog.html">Blog</a></li>
-        <li><a href="#">Login</a></li>
         <li><a href="#">Help</a></li>
+        <li><a href="login.html">Login | Sign Up</a></li>
     </ul>
     <!--Header-->
     <header class="alt">
 			<h1>FAQ</h1>
 	</header>
 	<!--Container-->
+    <div class="container" id="FAQ">
+        <h3>What is WTDN.com?</h3>
+        <p>WTDN stands for 'What to do next.' We are a career and educational resource for anyone tyring to figure out what they should do next so that they can achieve their dreams.</p>
+        <h3>Is WTDN right for me?</h3>
+        <p>If you are a college student looking to pick a major, an adult looking to make a career change, or a lifelong learner with a desire to explore the idea of learning something new, then WTDN is right for you!</p>
+        <h3>How much do your courses cost?</h3>
+        <p>Our courses are Free!</p>
+        <h3>How long does a course take to complete?</h3>
+        <p>We aim to make our courses no longer than 5-10 hours.</p>
+        <h3>Will I learn everything I need to know about a subject by completing a course?</h3>
+        <p>No. WDIDN is designed to help you get enough of a sense of a subject to determine whether you truly like it and to understand if a subject will fit your needs.</p>
+    </div>
 	<div class="container" id="contact">
-		<h3>Let me know what you think!</h3>
-		<p>Contact information and html form for sending me an email</p>
+		<h1>Questions? Concerns? We want to hear from you!</h1>
+		<form>
+            <label>Name:</label> <input type="text" name="name" id="name"/><br>
+            <label>Email:</label> <input type="email" name="email"/><br>
+            <label>Message:</label> <textarea name="about"></textarea><br>
+            <label> &nbsp; </label>
+            <input type="button" value="Submit" onclick="message()"/>
+            <input type="reset" value="Reset" />
+        </form>
+        <p id="message"></p>
 	</div>
 	<!--footer-->
 	<footer>
